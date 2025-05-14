@@ -3,7 +3,7 @@
     public class User : BaseEntity
     {
         public User(string fullName, string email, DateTime birthDate)
-            :base()
+            : base()
         {
             FullName = fullName;
             Email = email;

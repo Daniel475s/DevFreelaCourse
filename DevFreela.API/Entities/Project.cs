@@ -6,7 +6,7 @@ namespace DevFreela.API.Entities
     {
         protected Project() { }
         public Project(string title, string description, int idClient, int idFreelancer, decimal totalCost)
-            :base()
+            : base()
         {
             Title = title;
             Description = description;
@@ -25,8 +25,8 @@ namespace DevFreela.API.Entities
         public int IdFreelancer { get; private set; }
         public User Freelancer { get; private set; }
         public decimal TotalCost { get; private set; }
-        public DateTime? StartedAt{ get; private set; }
-        public DateTime? CompletedAt{ get; private set; }
+        public DateTime? StartedAt { get; private set; }
+        public DateTime? CompletedAt { get; private set; }
         public ProjectStatusEnum Status { get; private set; }
         public List<ProjectComment> Comments { get; private set; }
 

@@ -3,7 +3,7 @@
     public class ProjectComment : BaseEntity
     {
         public ProjectComment(string content, int idProduct, int idUser)
-            //:base()
+        //:base()
         {
             Content = content;
             IdProject = idProduct;
